@@ -1,0 +1,35 @@
+# Local assets
+models/
+pretrained/
+database/
+*.ckpt/
+
+# Outputs
+outputs/
+eval_results/
+results/
+analysis_output/
+tmp/
+viz/
+
+# Generated data
+**/feature/
+**/res/
+**/metric/
+**/images/
+**/merged.json
+**/blue_gate_decisions.jsonl
+**/blue_eval_summary.json
+
+# Python/cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Local env
+.env
+.venv/
+env/
+venv/
+wandb/

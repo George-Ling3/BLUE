@@ -1,0 +1,154 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.483,
+                "collisions_vehicle": 0.483,
+                "red_light": 0.483,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.009,
+                "min_speed_infractions": 7.733,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.483,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 17.429057,
+                "score_route": 83.34,
+                "score_penalty": 0.209132
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 2482.578,
+                "duration_game": 752.65,
+                "duration_system": 10120.006,
+                "exceptions": [
+                    [
+                        "RouteScenario_12_rep0",
+                        0,
+                        "Failed - Agent deviated from the route"
+                    ]
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_12_rep0",
+                "scenario_name": "OppositeVehicleRunningRedLight_1",
+                "weather_id": null,
+                "save_name": "RouteScenario_12_rep0_Town03_OppositeVehicleRunningRedLight_1_None_04_15_12_44_44",
+                "status": "Failed - Agent deviated from the route",
+                "num_infractions": 21,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [
+                        "Agent collided against object with type=walker.pedestrian.0022 and id=154 at (x=8.893, y=-91.356, z=-0.007) at time=231.850s [CARLA Frame: 6126, Agent Step: 4636]"
+                    ],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.dodge.charger_2020 and id=358 at (x=16.998, y=-133.716, z=0.022) at time=241.800s [CARLA Frame: 6325, Agent Step: 4835]"
+                    ],
+                    "red_light": [
+                        "Agent ran a red light 85 at (x=95.88, y=-124.722, z=8.143)"
+                    ],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 8.544 meters (0.41% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 431.05% of the surrounding traffic's one",
+                        "Average speed is 140.71% of the surrounding traffic's one",
+                        "Average speed is 73.42% of the surrounding traffic's one",
+                        "Average speed is 93.36% of the surrounding traffic's one",
+                        "Average speed is 102.6% of the surrounding traffic's one",
+                        "Average speed is 138.96% of the surrounding traffic's one",
+                        "Average speed is 167.07% of the surrounding traffic's one",
+                        "Average speed is 198.38% of the surrounding traffic's one",
+                        "Average speed is 181.17% of the surrounding traffic's one",
+                        "Average speed is 432.61% of the surrounding traffic's one",
+                        "Average speed is 92.42% of the surrounding traffic's one",
+                        "Average speed is 149.13% of the surrounding traffic's one",
+                        "Average speed is 55.3% of the surrounding traffic's one",
+                        "Average speed is 108.86% of the surrounding traffic's one",
+                        "Average speed is 232.14% of the surrounding traffic's one",
+                        "Average speed is 192.14% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [
+                        "Agent deviated from the route at (x=-77.944, y=-29.947, z=-0.286)"
+                    ],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 83.34,
+                    "score_penalty": 0.209132,
+                    "score_composed": 17.429057
+                },
+                "meta": {
+                    "route_length": 2482.578,
+                    "duration_game": 752.65,
+                    "duration_system": 10120.006
+                },
+                "town_name": "Town03"
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "17.429057",
+        "83.34",
+        "0.209132",
+        "0.483",
+        "0.483",
+        "0.0",
+        "0.483",
+        "0.0",
+        "0.009",
+        "0.483",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "7.733"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

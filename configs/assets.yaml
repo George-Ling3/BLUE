@@ -1,0 +1,31 @@
+project: BLUE
+release: v1.0.0-stage1
+
+backbone:
+  name: simlingo-official
+  source: official
+  url: TODO_OFFICIAL_SIMLINGO_BACKBONE_URL
+  local_path: models/simlingo/checkpoints/epoch=013.ckpt/pytorch_model.pt
+  license_note: Keep original SimLingo attribution and license terms.
+
+gate:
+  name: blue_simlingo_gate
+  version: v1
+  public_mode: trained_gate
+  file: gate/weights/blue_simlingo_gate.pt
+  metadata: gate/weights/blue_simlingo_gate.json
+  sha256: 3d44af50d5f1639bc1e19fe3d7812d2f0fd6e9345893d3ccab83c420b9a4e788
+  hidden_size: 896
+  mlp_hidden_size: 128
+  dropout: 0.5
+  norm_type: none
+  recommended_threshold: 0.66
+
+routes:
+  bench2drive_split: data/routes/bench2drive_split
+  count: 220
+
+eval_logs:
+  host: github-release
+  file: blue_eval_logs_v1.tar.gz
+  sha256: TODO_SHA256

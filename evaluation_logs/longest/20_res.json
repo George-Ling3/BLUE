@@ -1,0 +1,133 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 4.309,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 4.309,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 4.309,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 5.6,
+                "score_route": 8.0,
+                "score_penalty": 0.7
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 2901.173,
+                "duration_game": 79.05,
+                "duration_system": 639.675,
+                "exceptions": [
+                    [
+                        "RouteScenario_20_rep0",
+                        0,
+                        "Failed - Agent deviated from the route"
+                    ]
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_20_rep0",
+                "scenario_name": "SignalizedJunctionLeftTurn_1",
+                "weather_id": null,
+                "save_name": "RouteScenario_20_rep0_Town04_SignalizedJunctionLeftTurn_1_None_04_18_17_13_20",
+                "status": "Failed - Agent deviated from the route",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [
+                        "Agent ran a red light 134 at (x=264.0, y=-302.55, z=0.05)"
+                    ],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 80.64% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [
+                        "Agent deviated from the route at (x=255.215, y=-276.982, z=0.014)"
+                    ],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 8.0,
+                    "score_penalty": 0.7,
+                    "score_composed": 5.6
+                },
+                "meta": {
+                    "route_length": 2901.173,
+                    "duration_game": 79.05,
+                    "duration_system": 639.675
+                },
+                "town_name": "Town04"
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "5.6",
+        "8.0",
+        "0.7",
+        "0.0",
+        "0.0",
+        "0.0",
+        "4.309",
+        "0.0",
+        "0.0",
+        "4.309",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "4.309"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Failed",
+            "infractions": {
+                "collisions_layout": 4.204,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 4.204,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.022,
+                "min_speed_infractions": 16.816,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 4.204,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 8.668137,
+                "score_route": 24.5,
+                "score_penalty": 0.353802
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 970.88,
+                "duration_game": 299.65,
+                "duration_system": 2640.076,
+                "exceptions": [
+                    [
+                        "RouteScenario_4_rep0",
+                        0,
+                        "Failed - Agent got blocked"
+                    ]
+                ]
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_4_rep0",
+                "scenario_name": "DynamicObjectCrossing_1",
+                "weather_id": null,
+                "save_name": "RouteScenario_4_rep0_Town01_DynamicObjectCrossing_1_None_04_15_20_09_33",
+                "status": "Failed - Agent got blocked",
+                "num_infractions": 8,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.bridge and id=0 at (x=5.648, y=185.761, z=0.094) at time=239.650s [CARLA Frame: 6358, Agent Step: 4792]"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.audi.tt and id=267 at (x=-0.867, y=182.943, z=-0.011) at time=217.900s [CARLA Frame: 5923, Agent Step: 4357]"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 22.073 meters (9.28% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 98.47% of the surrounding traffic's one",
+                        "Average speed is 7.37% of the surrounding traffic's one",
+                        "Average speed is 76.92% of the surrounding traffic's one",
+                        "Average speed is 106.13% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [
+                        "Agent got blocked at (x=5.68, y=185.941, z=0.101)"
+                    ],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 24.5,
+                    "score_penalty": 0.353802,
+                    "score_composed": 8.668137
+                },
+                "meta": {
+                    "route_length": 970.88,
+                    "duration_game": 299.65,
+                    "duration_system": 2640.076
+                },
+                "town_name": "Town01"
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "8.668137",
+        "24.5",
+        "0.353802",
+        "0.0",
+        "4.204",
+        "4.204",
+        "0.0",
+        "0.0",
+        "0.022",
+        "0.0",
+        "0.0",
+        "4.204",
+        "0.0",
+        "0.0",
+        "16.816"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}

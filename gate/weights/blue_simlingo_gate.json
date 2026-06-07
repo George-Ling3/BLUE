@@ -1,0 +1,13 @@
+{
+  "name": "blue_simlingo_gate",
+  "version": "v1",
+  "checkpoint": "blue_simlingo_gate.pt",
+  "hidden_size": 896,
+  "mlp_hidden_size": 128,
+  "dropout": 0.5,
+  "norm_type": "none",
+  "recommended_threshold": 0.66,
+  "token_position": "last_language_token_before_generation",
+  "public_mode": "trained_gate",
+  "sha256": "3d44af50d5f1639bc1e19fe3d7812d2f0fd6e9345893d3ccab83c420b9a4e788"
+}

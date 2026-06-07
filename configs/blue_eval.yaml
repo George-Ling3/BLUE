@@ -1,0 +1,31 @@
+mode: trained_gate
+seed: 1
+route_range: null
+
+paths:
+  gate_ckpt: gate/weights/blue_simlingo_gate.pt
+  agent: team_code/agent_simlingo.py
+  route_dir: data/routes/bench2drive_split
+  out_dir: outputs/blue_eval
+  simlingo_ckpt: models/simlingo/checkpoints/epoch=013.ckpt/pytorch_model.pt
+  carla_root: null
+
+gate:
+  threshold: 0.66
+  hidden_size: 896
+  mlp_hidden_size: 128
+  dropout: 0.5
+  norm_type: none
+
+evaluation:
+  timeout_seconds: 4000
+  hard_timeout_seconds: 4300
+  max_retry_rounds: 1
+  base_port: 50000
+  traffic_manager_seed: 1
+
+outputs:
+  result_dir: res
+  visualization_dir: viz
+  decision_log: blue_gate_decisions.jsonl
+  summary: blue_eval_summary.json

@@ -1,0 +1,147 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Completed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 0.999,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.004,
+                "min_speed_infractions": 20.986,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 69.731877,
+                "score_route": 100.0,
+                "score_penalty": 0.697319
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 1000.683,
+                "duration_game": 441.7,
+                "duration_system": 4152.9,
+                "exceptions": []
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_7_rep0",
+                "scenario_name": "DynamicObjectCrossing_1",
+                "weather_id": null,
+                "save_name": "RouteScenario_7_rep0_Town02_DynamicObjectCrossing_1_None_04_15_15_05_24",
+                "status": "Completed",
+                "num_infractions": 23,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [
+                        "Agent ran a red light 39 at (x=196.21, y=250.81, z=0.22)"
+                    ],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 3.795 meters (0.38% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 121.74% of the surrounding traffic's one",
+                        "Average speed is 83.61% of the surrounding traffic's one",
+                        "Average speed is 149.34% of the surrounding traffic's one",
+                        "Average speed is 141.97% of the surrounding traffic's one",
+                        "Average speed is 152.38% of the surrounding traffic's one",
+                        "Average speed is 85.36% of the surrounding traffic's one",
+                        "Average speed is 79.19% of the surrounding traffic's one",
+                        "Average speed is 287.01% of the surrounding traffic's one",
+                        "Average speed is 124.03% of the surrounding traffic's one",
+                        "Average speed is 58.93% of the surrounding traffic's one",
+                        "Average speed is 160.46% of the surrounding traffic's one",
+                        "Average speed is 120.58% of the surrounding traffic's one",
+                        "Average speed is 85.94% of the surrounding traffic's one",
+                        "Average speed is 185.81% of the surrounding traffic's one",
+                        "Average speed is 69.35% of the surrounding traffic's one",
+                        "Average speed is 171.33% of the surrounding traffic's one",
+                        "Average speed is 20.79% of the surrounding traffic's one",
+                        "Average speed is 133.21% of the surrounding traffic's one",
+                        "Average speed is 273.23% of the surrounding traffic's one",
+                        "Average speed is 122.8% of the surrounding traffic's one",
+                        "Average speed is 122.8% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.697319,
+                    "score_composed": 69.731877
+                },
+                "meta": {
+                    "route_length": 1000.683,
+                    "duration_game": 441.7,
+                    "duration_system": 4152.9
+                },
+                "town_name": "Town02"
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "69.731877",
+        "100.0",
+        "0.697319",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.999",
+        "0.0",
+        "0.004",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "20.986"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}
