@@ -1,6 +1,6 @@
 # BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-BLUE-2f80ed)](https://github.com/George-Ling3/BLUE)
+[![Project Page](https://img.shields.io/badge/Project%20Page-BLUE-2f80ed)](https://blue-website.github.io)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/George-Ling3/BLUE/blob/main/LICENSE)
 [![paper](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b?logo=arxiv&logoColor=red)](#)
 [![Hugging Face Weights](https://img.shields.io/badge/Hugging%20Face-Weights-yellow?logo=huggingface)](https://huggingface.co/George-Ling/blue_gate)
@@ -15,7 +15,7 @@ BLUE uses a 0.11M-parameter gate to decide at each frame whether to predict driv
 
 ## 🎉 News
 
-2026-06 - We released the [Project Page](https://github.com/George-Ling3/BLUE). It includes some demo videos. 🎉Please check it!
+2026-06 - We released the [Project Page](https://blue-website.github.io). It includes some demo videos. 🎉Please check it!
 
 2026-06 - We released the BLUE [evaluation code](gate/evaluation/eval_blue_full.sh), [model checkpoints](gate/weights/blue_simlingo_gate.pt), and [evaluation logs](evaluation_logs/bench2drive/bench2drive_merged_2.json). 🎉Please try it!
 
