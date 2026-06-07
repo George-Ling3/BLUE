@@ -1,10 +1,10 @@
 # BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving
 
-[![Project Page](https://img.shields.io/badge/Project%20Page-BLUE-2f80ed)](https://blue-website.github.io)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://github.com/George-Ling3/BLUE/blob/main/LICENSE)
+[![Project Page](https://img.shields.io/badge/Project%20Page-Blue-0A66C2?logo=googlechrome&logoColor=white)](https://blue-website.github.io/)
 [![paper](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b?logo=arxiv&logoColor=red)](#)
 [![Hugging Face Weights](https://img.shields.io/badge/Hugging%20Face-Weights-yellow?logo=huggingface)](https://huggingface.co/George-Ling/blue_gate)
 [![Hugging Face Data](https://img.shields.io/badge/Hugging%20Face-Data-yellow?logo=huggingface)](https://huggingface.co/datasets/George-Ling/blue_data)
+[![Hugging Face Logs](https://img.shields.io/badge/Hugging%20Face-Logs-yellow?logo=huggingface)](https://huggingface.co/George-Ling/blue_gate/tree/main/evaluation_logs)
 
 This repository is the official codebase for BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving.
 
