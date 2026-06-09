@@ -1,7 +1,7 @@
 # BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving
 
 [![Project Page](https://img.shields.io/badge/Project%20Page-Blue-0A66C2?logo=googlechrome&logoColor=white)](https://blue-website.github.io/)
-[![paper](https://img.shields.io/badge/arXiv-coming%20soon-b31b1b?logo=arxiv&logoColor=red)](#)
+[![paper](https://img.shields.io/badge/arXiv-2606.08684-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2606.08684)
 [![Hugging Face Weights](https://img.shields.io/badge/Hugging%20Face-Weights-yellow?logo=huggingface)](https://huggingface.co/George-Ling/blue_gate)
 [![Hugging Face Data](https://img.shields.io/badge/Hugging%20Face-Data-yellow?logo=huggingface)](https://huggingface.co/datasets/George-Ling/blue_data)
 [![Hugging Face Logs](https://img.shields.io/badge/Hugging%20Face-Logs-yellow?logo=huggingface)](https://huggingface.co/George-Ling/blue_gate/tree/main/evaluation_logs)
