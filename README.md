@@ -45,8 +45,8 @@ PythonAPI/carla/
 The BLUE gate checkpoint is already included in this repository at
 [`gate/weights/blue_simlingo_gate.pt`](gate/weights/blue_simlingo_gate.pt).
 
-To use the SimLingo backbone, download the checkpoint from the official
-[SimLingo repository](https://huggingface.co/RenzKa/simlingo/tree/main/simlingo/checkpoints/epoch%3D013.ckpt), then pass the local
+To use the SimLingo backbone, download the official checkpoint from the
+[official SimLingo repository](https://huggingface.co/RenzKa/simlingo/tree/main/simlingo/checkpoints/epoch%3D013.ckpt), then pass the local
 `pytorch_model.pt` path through `--agent-config` when running evaluation.
 
 You can verify bundled assets with:
