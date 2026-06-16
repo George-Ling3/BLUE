@@ -1,0 +1,1 @@
+"""Model definitions for BLUE."""

@@ -1,7 +1,7 @@
 # Local assets
-models/
-pretrained/
-database/
+/models/
+/pretrained/
+/database/
 *.ckpt/
 
 # Outputs
