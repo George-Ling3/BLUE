@@ -6,7 +6,7 @@
 [![Hugging Face Data](https://img.shields.io/badge/Hugging%20Face-Data-yellow?logo=huggingface)](https://huggingface.co/datasets/George-Ling/blue_data)
 [![Hugging Face Logs](https://img.shields.io/badge/Hugging%20Face-Logs-yellow?logo=huggingface)](https://huggingface.co/George-Ling/blue_gate/tree/main/evaluation_logs)
 
-This repository is the official codebase for BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving.
+This repository is the official codebase for our EMNLP paper "BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving".
 
 TLDR: Driving VLAs often generate language reasoning that is useless or even harmful to driving. 
 BLUE addresses this by generating language only when it clearly helps, thereby improving driving performance while reducing inference latency.
@@ -14,6 +14,8 @@ BLUE addresses this by generating language only when it clearly helps, thereby i
 BLUE uses a 0.11M-parameter gate to decide at each frame whether to predict driving actions with or without intermediate language generation.
 
 ## 🎉 News
+
+2026-08 - Our paper was accepted to the [EMNLP 2026 Main Conference](https://2026.emnlp.org/program/main_papers/). 🎉
 
 2026-06 - We released the [Project Page](https://blue-website.github.io). It includes some demo videos. 🎉Please check it!
 
