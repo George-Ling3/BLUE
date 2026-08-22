@@ -126,9 +126,17 @@ blue/
 
 ![BLUE longest result and inference efficiency/latency comparison](figure/exp_result2.png)
 
+### Results on Fail2Drive
+
+![BLUE main result on Fail2Drive](figure/exp_result3.png)
+
+### Results on NAVSIM
+
+![BLUE main result on NAVSIM](figure/exp_result4.png)
+
 ### 📋 Ready-to-Cite Results
 
-Bench2Drive and Fail2Drive results are reported as mean ± std over three seeds; Longest6 v2 and NAVSIM use a single seed.
+Bench2Drive and Fail2Drive results are reported as mean ± std over three seeds; Longest6 v2 and NAVSIM use a single seed. Feel free to use BLUE as a baseline in your work, and we'd be happy if you cite us!
 
 #### BLUE on Bench2Drive
 
@@ -151,7 +159,7 @@ Bench2Drive and Fail2Drive results are reported as mean ± std over three seeds;
 
 | Split | DS ↑ | SR (%) ↑ | HM ↑ |
 |---|---:|---:|---:|
-| In Distribution | 85.67 ± 1.46 | 84.00 ± 3.27 | 84.81 ± 2.35 |
+| In-Distribution | 85.67 ± 1.46 | 84.00 ± 3.27 | 84.81 ± 2.35 |
 | Generalization | 73.87 ± 0.31 | 59.00 ± 1.63 | 65.59 ± 1.11 |
 
 #### BLUE on NAVSIM
