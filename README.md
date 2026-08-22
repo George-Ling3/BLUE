@@ -126,15 +126,50 @@ blue/
 
 ![BLUE longest result and inference efficiency/latency comparison](figure/exp_result2.png)
 
-## 🧭 Open-Source Plan
+### 📋 Ready-to-Cite Results
 
-- [x] Stage 1: release evaluation code, model checkpoints, and evaluation logs.
-- [ ] Stage 2: release training data and training code.
+Bench2Drive and Fail2Drive results are reported as mean ± std over three seeds; Longest6 v2 and NAVSIM use a single seed.
 
-## 🙏 Acknowledgements
+#### BLUE on Bench2Drive
 
-BLUE builds on [SimLingo](https://github.com/RenzKa/simlingo),
-[CriticVLA](https://arxiv.org/abs/2604.27366),
-[Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive), and
-[CARLA](https://github.com/carla-simulator/carla). Please follow the original
-licenses and attribution terms for all upstream components.
+| SR (%) ↑ | DS ↑ | Efficiency (%) ↑ | Smoothness ↑ |
+|---:|---:|---:|---:|
+| 76.18 ± 0.64 | 90.58 ± 0.12 | 256.63 ± 2.48 | 0.2524 ± 0.0162 |
+
+| Merge ↑ | Overtake ↑ | EmBrake ↑ | GiveWay ↑ | TSign ↑ | Mean ↑ |
+|---:|---:|---:|---:|---:|---:|
+| 61.44 ± 1.33 | 80.00 ± 1.81 | 93.27 ± 1.33 | 50.00 ± 0.00 | 84.74 ± 0.00 | 73.89 ± 0.14 |
+
+
+#### BLUE on Longest6 v2
+
+| Driving Score ↑ | Route Completion ↑ | Infraction Score ↑ |
+|---:|---:|---:|
+| 36.0 | 84.0 | 0.43 |
+
+#### BLUE on Fail2Drive
+
+| Split | DS ↑ | SR (%) ↑ | HM ↑ |
+|---|---:|---:|---:|
+| In Distribution | 85.67 ± 1.46 | 84.00 ± 3.27 | 84.81 ± 2.35 |
+| Generalization | 73.87 ± 0.31 | 59.00 ± 1.63 | 65.59 ± 1.11 |
+
+#### BLUE on NAVSIM
+
+| EP ↑ | NC ↑ | DAC ↑ | DDC ↑ | TTC ↑ | Comfort ↑ | PDMS ↑ |
+|---:|---:|---:|---:|---:|---:|---:|
+| 81.35 | 98.50 | 94.77 | 97.88 | 94.84 | 99.99 | 87.00 |
+
+
+## 📚 Citation
+
+If you find BLUE useful, please consider citing our work:
+
+```bibtex
+@article{ling2026blue,
+  title={BLUE: Toward Better Language Use in Efficient Vision-Language-Action Models for Autonomous Driving},
+  author={Ling, George and Yang, Lijin and Yang, Hao and Huang, Zhongzhan},
+  journal={arXiv preprint arXiv:2606.08684},
+  year={2026}
+}
+```
